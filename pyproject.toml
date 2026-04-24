@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ophix-lang-fr-server-base"
+version = "2026.04.25.01"
+description = "French translation pack for ophix-server-base"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ophix Project" }
+]
+dependencies = [
+    "ophix-server-base",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ophix_lang_fr_server_base = [
+    "locale/**/*",
+    "docs/**/*",
+]
+
+[project.entry-points."ophix.plugins"]
+ophix_lang_fr_server_base = "ophix_lang_fr_server_base"
