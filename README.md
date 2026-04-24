@@ -1,10 +1,12 @@
 # ophix-lang-fr-server-base
 
+> Pack de traduction française pour ophix-server-base.
+
 French translation pack for [ophix-server-base](https://ophix.io).
 
 ## Install
 
-```
+```bash
 pip install ophix-lang-fr-server-base
 ```
 
