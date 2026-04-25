@@ -17,3 +17,9 @@ Then set `LANGUAGE_CODE = "fr"` (or `"fr-fr"`) in your server `.env`.
 - Admin UI strings: client fieldset labels, deployment and token field labels
 - Help text strings for Client model fields (deployment_ref, venv_name, venv_path, artifact permission flags)
 - Documentation pages: server installation, client quickstart, access auditing
+
+## Documentation
+
+- [Installation du serveur](src/ophix_lang_fr_server_base/docs/server-installation.md)
+- [Démarrage rapide client](src/ophix_lang_fr_server_base/docs/client-quickstart.md)
+- [Journal d'audit d'accès](src/ophix_lang_fr_server_base/docs/access-auditing.md)
