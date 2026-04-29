@@ -1,7 +1,7 @@
 ---
 title: Démarrage rapide client
 slug: client-quickstart
-order: 5
+order: 20
 section: Prise en main
 ---
 

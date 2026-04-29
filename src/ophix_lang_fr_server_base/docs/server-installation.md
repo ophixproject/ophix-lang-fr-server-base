@@ -1,7 +1,7 @@
 ---
 title: Installation du serveur
 slug: server-installation
-order: 1
+order: 10
 section: Prise en main
 ---
 

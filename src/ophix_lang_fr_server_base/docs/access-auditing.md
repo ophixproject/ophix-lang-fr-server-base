@@ -1,7 +1,7 @@
 ---
 title: Journal d'audit d'accès
 slug: access-auditing
-order: 10
+order: 30
 section: Prise en main
 ---
 
