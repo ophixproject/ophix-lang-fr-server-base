@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ophix-server-base 2026.04.25.01\n"
+"Project-Id-Version: ophix-server-base 2026.04.29.04\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 00:00+0000\n"
-"PO-Revision-Date: 2026-04-25 00:00+0000\n"
+"POT-Creation-Date: 2026-04-29 00:00+0000\n"
+"PO-Revision-Date: 2026-04-29 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -24,29 +24,133 @@ msgid "Token"
 msgstr "Jeton"
 
 #: src/ophix/core/models.py
+msgid "name"
+msgstr "nom"
+
+#: src/ophix/core/models.py
+msgid "IPv4 address"
+msgstr "adresse IPv4"
+
+#: src/ophix/core/models.py
+msgid "description"
+msgstr "description"
+
+#: src/ophix/core/models.py
+msgid "enabled"
+msgstr "activé"
+
+#: src/ophix/core/models.py
+msgid "Host"
+msgstr "Hôte"
+
+#: src/ophix/core/models.py
+msgid "Hosts"
+msgstr "Hôtes"
+
+#: src/ophix/core/models.py
+msgid "host"
+msgstr "hôte"
+
+#: src/ophix/core/models.py
+msgid "deployment reference"
+msgstr "référence de déploiement"
+
+#: src/ophix/core/models.py
 msgid "Deployment reference (repository name or similar identifier)"
 msgstr "Référence de déploiement (nom du dépôt ou identifiant similaire)"
+
+#: src/ophix/core/models.py
+msgid "virtual environment name"
+msgstr "nom de l'environnement virtuel"
 
 #: src/ophix/core/models.py
 msgid "Name of the Python virtual environment"
 msgstr "Nom de l'environnement virtuel Python"
 
 #: src/ophix/core/models.py
+msgid "virtual environment path"
+msgstr "chemin de l'environnement virtuel"
+
+#: src/ophix/core/models.py
 msgid "Absolute path to the Python virtual environment"
 msgstr "Chemin absolu vers l'environnement virtuel Python"
+
+#: src/ophix/core/models.py
+msgid "API token"
+msgstr "jeton API"
+
+#: src/ophix/core/models.py
+msgid "last token rotation"
+msgstr "dernière rotation du jeton"
+
+#: src/ophix/core/models.py
+msgid "Client"
+msgstr "Client"
+
+#: src/ophix/core/models.py
+msgid "Clients"
+msgstr "Clients"
+
+#: src/ophix/core/models.py
+msgid "client"
+msgstr "client"
 
 #: src/ophix/core/models.py
 msgid "Client can read this artifact (can_read)."
 msgstr "Le client peut lire cet artefact (can_read)."
 
 #: src/ophix/core/models.py
+msgid "can update"
+msgstr "peut modifier"
+
+#: src/ophix/core/models.py
 msgid "Client may overwrite this artifact."
 msgstr "Le client peut écraser cet artefact."
+
+#: src/ophix/core/models.py
+msgid "can delete"
+msgstr "peut supprimer"
 
 #: src/ophix/core/models.py
 msgid "Client may delete this artifact."
 msgstr "Le client peut supprimer cet artefact."
 
 #: src/ophix/core/models.py
+msgid "can share"
+msgstr "peut partager"
+
+#: src/ophix/core/models.py
 msgid "Reserved: future client-driven sharing. Currently unused."
 msgstr "Réservé : partage futur à l'initiative du client. Actuellement inutilisé."
+
+#: src/ophix/core/models.py
+msgid "notes"
+msgstr "notes"
+
+#: src/ophix/core/models.py
+msgid "operation"
+msgstr "opération"
+
+#: src/ophix/core/models.py
+msgid "artifact type"
+msgstr "type d'artefact"
+
+#: src/ophix/core/models.py
+msgid "artifact name"
+msgstr "nom de l'artefact"
+
+#: src/ophix/core/models.py
+msgid "artifact ID"
+msgstr "identifiant de l'artefact"
+
+#: src/ophix/core/models.py
+msgid "timestamp"
+msgstr "horodatage"
+
+#: src/ophix/core/models.py
+msgid "Access Log"
+msgstr "Journal d'accès"
+
+#: src/ophix/core/models.py
+msgid "Access Logs"
+msgstr "Journaux d'accès"
